@@ -1,59 +1,44 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://hackmum.in">
+    <img alt="Hackerspace Mumbai logo" src="./hm_logo.jpg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's personal blog starter
+  Hackerspace Mumbai Blog : Technology & Community
 </h1>
 
-<img alt="screesnhot" src="./screenshot.png">
 
-This starter is a fork of Gatsby Starter Blog, the most popular starter by far – with second place being Gatsby Starter Netlify CMS. So I decided to combine the 2!
+This blog will chronicle our journey of becoming the largest OSS community in Mumbai; sharing our learning and experiences about technology and people !!!  
 
-## 🚀 Quick start
+## 🎁 What we do
 
-1.  **Create a Gatsby site.**
+The mandate we have set for ourselves is to increase the knowledge level of technology at all skill levels in Mumbai, providing a platform for folks to showcase and share their knowledge and experience.
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+1.  **Mumbai Technology Meetup**
 
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/thomaswang/gatsby-personal-starter-blog
-    ```
+    A monthly meetup usually consisting of 3-4 sessions revolving around a theme. The themes for the first quarter of 2020:
+    * January: Golang and Frontend Technology
+    * February: IoT
+    * March: DevOps
 
-1.  **Start developing.**
+    The session is usually aimed at folks with intermediate experience but we reserve a few places for freshers.
+    
+1.  **Freecodecamp**
 
-    Navigate into your new site’s directory and start it up.
+    One of our core goal is to enable folks from all walks of life to be able to code and in this we found freecodecamp an ideological ally and a superlative resource. Most of our meetups have a dedicated session for folks undertaking the freeCodeCamp challenges so that they can share and encourage each other's progress towards being a full stack developer.
 
-    ```sh
-    cd my-blog-starter/
-    gatsby develop
-    ```
+1.  **Protoschool**
 
-1.  **Open the source code and start editing!**
+    Being an OSS community, we believe that privacy is an inviolable right of an individual and to this end, we support and work towards a decentralized web. Along with freeCodeCamp, we host Protoschool sessions for enabling folks to take their first steps into #dWeb.
 
-    Your site is now running at `http://localhost:8000`!
+1.  **Bootcamps & Hackathons**
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    If you go by last few year analytics, our most sought after events are bootcamps which comprises of day long coding sessions. These are usually theme based like cloud, #AI, #MixedReality etc. Also we partner with MLH to conduct hackathons, giving special emphasis on student participation. 
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🎓 Learning Gatsby
+## 🙏 Our Clarion call: बिंदास, बनून टाक !!!
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 📔 Learning Netlify CMS with Gatsby
-
-Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/#authenticating-with-github) in the Gatsby documentation to finish the set up for your personal Netlify CMS with authentication.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
