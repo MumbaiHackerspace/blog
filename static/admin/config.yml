@@ -1,6 +1,7 @@
 backend:
   name: github
-  repo: https://github.com/MumbaiHackerspace/blog
+  repo: MumbaiHackerspace/blog
+
 
 media_folder: static/assets
 public_folder: assets

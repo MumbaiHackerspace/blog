@@ -9,7 +9,7 @@
 </h1>
 
 
-This blog will chronicle our journey of becoming the largest OSS community in Mumbai; sharing our learning and experiences about technology and people !!!  
+This blog will chronicle our journey in becoming the largest OSS community in Mumbai; sharing our learnings and experiences about technology and people !!!  
 
 ## 🎁 What we do
 
@@ -26,7 +26,7 @@ The mandate we have set for ourselves is to increase the knowledge level of tech
     
 1.  **Freecodecamp**
 
-    One of our core goal is to enable folks from all walks of life to be able to code and in this we found freecodecamp an ideological ally and a superlative resource. Most of our meetups have a dedicated session for folks undertaking the freeCodeCamp challenges so that they can share and encourage each other's progress towards being a full stack developer.
+    One of our pirma   goal is to enable folks from all walks of life to be able to code and in this we found freecodecamp an ideological ally and a superlative resource. Most of our meetups have a dedicated session for folks undertaking the freeCodeCamp challenges so that they can share and encourage each other's progress towards being a full stack developer.
 
 1.  **Protoschool**
 
