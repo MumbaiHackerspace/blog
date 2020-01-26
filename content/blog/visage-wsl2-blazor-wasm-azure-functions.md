@@ -24,5 +24,6 @@ Since the person who will be doing the bulk of the work is a Microsoft MVP with 
 * AI/ML : Azure Cognitive Vision + Bot Service Framework
 * Project: Azure DevOps
 * Deployment: Azure CDN
+* Identity: Auth0
 
 <!--EndFragment-->
