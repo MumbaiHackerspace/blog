@@ -19,11 +19,11 @@ Since the person who will be doing the bulk of the work is a Microsoft MVP with 
 * Dev Infra: WSL2 with Code Insider version
 * Framework : .Net Core 3.1 on Linux
 * Frontend: Blazor WASM + SignalR
-* Middleware: Azure Functions
+* Middleware: Azure Functions Containers - Docker
 * Backend: CosmosDB + Neo4j
 * AI/ML : Azure Cognitive Vision + Bot Service Framework
 * Project: Azure DevOps
-* Deployment: Azure CDN
+* Deployment: Azure CDN + Azure FrontDoor
 * Identity: Auth0
 
 <!--EndFragment-->
