@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
         <p>
         
         <h2>
-          🎁 
+          <span role="img" aria-label="gift emoji">🎁</span> 
         What we do</h2>
 <p>The mandate we have set for ourselves is to increase the knowledge level of technology at all skill levels in Mumbai, providing a platform for folks to showcase and share their knowledge and experience.</p>
 
@@ -55,7 +55,7 @@ class IndexPage extends React.Component {
     If you go by last few year analytics, our most sought after events are bootcamps which comprises of day long coding sessions. These are usually theme based like cloud, #AI, #MixedReality etc. Also we partner with MLH to conduct hackathons, giving special emphasis on student participation. 
 
 
-<h4>🙏बिंदास, बनून टाक !!!</h4>
+<h4><span role="img" aria-label="namaste emoji">🙏</span>बिंदास, बनून टाक !!!</h4>
 
         </p>
    
