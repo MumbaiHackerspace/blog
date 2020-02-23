@@ -23,7 +23,7 @@ Since the person who will be doing the bulk of the work is a Docker Community Le
 * Project: Azure DevOps
 * Deployment: Azure CDN + Azure FrontDoor
 * Identity: Auth0
-* IoT : Azure IoT
+* IoT : MXChip IoT Devkit 
 
 The endeavour is to develop code ready to demo on technologies topical to our monthly #mumtechup [our monthly meetups usually have a theme join us for our [1st meetup for 2020](https://twitter.com/hackmum/status/1222455069964005376) ]
 
