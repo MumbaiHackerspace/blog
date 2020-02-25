@@ -1,7 +1,7 @@
 ---
 path: Visage
 date: 2020-02-24T17:41:18.523Z
-title: Day 1 - Let there be light and ...project management
+title: Day 1 - Project Management and Domain Modeling
 description: We set up the Azure DevOps project and set the project structure
 ---
 <!--StartFragment-->
@@ -141,28 +141,21 @@ template generates a project that still targets .NET Standard 2.0. To target .NE
 <https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0>
 
 
-
+```dotnet
 <Project Sdk="Microsoft.NET.Sdk">
-
-
-
 <PropertyGroup>
 
 <TargetFramework>netstandard2.1</TargetFramework>
 
 </PropertyGroup>
-
-
-
 </Project>
+```
+Why in the Scott's name such discrepancies exist between Project Types. Wasn't .Net Core 3.1 supposed to begin on a clean slate and be the "standard"? It will only trip newbies, making them sceptical of adopting .Net
 
 
+Finally this worked, had to explicitly change it to .Net Core 3.1
 
-|     |     |
-| --- | --- |
-
-
-
+```dotnet
 <ProjectSdk="Microsoft.NET.Sdk">
 
 <PropertyGroup>
@@ -172,5 +165,5 @@ template generates a project that still targets .NET Standard 2.0. To target .NE
 </PropertyGroup>
 
 </Project>
-
+```
 <!--EndFragment-->
