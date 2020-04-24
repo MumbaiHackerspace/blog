@@ -2,6 +2,11 @@ backend:
   name: github
   repo: MumbaiHackerspace/blog
 
+#backend:
+#  name: git-gateway
+
+#local_backend:
+#  url: http://localhost:8081/api/v1
 
 media_folder: static/assets
 public_folder: assets
@@ -17,3 +22,4 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - { name: image, label: 'Cover Image', widget: image }
