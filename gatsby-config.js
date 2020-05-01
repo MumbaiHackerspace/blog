@@ -4,7 +4,7 @@ module.exports = {
     title: `Hackerspace Mumbai Technical Blog`,
     author: `Hackerspace Mumbai`,
     description: `A blog chronicling while at the same time sharing our learning and experience in building the largest OSS community in Bombay`,
-    siteUrl: `https://blog.hackmum.in/`,
+    siteUrl: `https://tech.hackmum.in/`,
     social: {
       twitter: `hackmum`,
     },
@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
@@ -29,6 +30,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/public/assets`,
+        name: `images`,
       },
     },
     {
