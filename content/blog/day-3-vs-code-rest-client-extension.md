@@ -10,14 +10,14 @@ After getting Xamarin to work [had to upgrade the emulator in the end], I decide
 
 1. In your VS Code settings.json, one can create key value pairs for different environments. Ofc, the prime candidate for these pairs are Visage specific secrets + sensitive data [i.e. all info that should not be either stored or committed to a public repo]
  
-![Rest Client VSCode settings](../../public/assets/Rest-Client-VSCode-settings.png)
+![Rest Client VSCode settings](../../static/assets/Rest-Client-VSCode-settings.png)
 
 2. You write up your call in files with .http extension. One thing that is going to be a great time saver is the visual cues it provides if a parameter being invoked in not part of the environment.
 
-![Rest Client Squiggly](../../public/assets/Rest-Client-Squiggle.png)
+![Rest Client Squiggly](../../static/assets/Rest-Client-Squiggle.png)
 
 Once you switch to the current environment via VS Code's Command Palette, the squiggly goes away
 
-![Rest Client Environment Switch](../../public/assets/Rest-Client-Environment-Switch.png)
+![Rest Client Environment Switch](../../static/assets/Rest-Client-Environment-Switch.png)
 
 

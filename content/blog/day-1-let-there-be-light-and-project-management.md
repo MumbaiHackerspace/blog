@@ -11,11 +11,11 @@ We created a Azure DevOps for Requirements & Resource tracking:
 <https://dev.azure.com/augcor/Visage>
 
 
-![Visage Azure DevOps Project](../../public/assets/azure_devops.png)
+![Visage Azure DevOps Project](../../static/assets/azure_devops.png)
 
 The first project we created was a Visage.Core Class Library\[there is a reason we have bolden this...read further] project to hold all the models that will be used throughout the project
 
-![ClassLib .net command](../../public/assets/Day1-classlib-clicommand.png)
+![ClassLib .net command](../../static/assets/Day1-classlib-clicommand.png)
 
 Our initial thinking was to annotate this with JSON property so that we can typecast the JSON responses from API calls to 3rd party APIs without creating additional classes.
 
@@ -23,7 +23,7 @@ But we were getting this weird error
 
 System.Text.Json was not available even though almost all.Net Core 3.1 literature on the web were screaming out that its bundled with SDK
 
-![Squiggly under JSON reference](../../public/assets/Day1-JSON-Code-squiggly.png)
+![Squiggly under JSON reference](../../static/assets/Day1-JSON-Code-squiggly.png)
 
 But after wracking our brains over this for close to an hour, we found this nugget of info tucked into one of the site.
 
