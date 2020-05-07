@@ -28,7 +28,8 @@ Since the person who will be doing the bulk of the work is a Docker Community Le
 
 The endeavour is to develop code ready to demo on technologies topical to our monthly #mumtechup [our monthly meetups usually have a theme join us for our [1st meetup for 2020](https://twitter.com/hackmum/status/1222455069964005376) ]
 
-![Visage Architecture](../../static/assets/visage_architecture.png)
+
+![Visage Architecture](./visage_architecture.PNG)
 
 
 <!--EndFragment-->
