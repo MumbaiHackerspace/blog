@@ -28,7 +28,6 @@ module.exports = {
     `gatsby-remark-images`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
