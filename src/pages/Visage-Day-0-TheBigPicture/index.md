@@ -3,7 +3,7 @@ path: Visage
 date: 2020-01-20T23:57:11.214Z
 title: In the beginning
 description: "Visage: Why, what and how?"
-image: assets/visage_architecture.png
+featured: './visage_architecture.png'
 ---
 <!--StartFragment-->
 

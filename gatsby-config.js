@@ -8,6 +8,18 @@ module.exports = {
     social: {
       twitter: `hackmum`,
     },
+    keywords : [
+      `blog`,
+      `hackerspace`,
+      `mumbai`,
+      `technology`,
+      `community`,
+      `oss`,
+      `people`,
+      `meetup`,
+      `bootcamps`,
+      `workshops`,
+    ],
   },
   plugins: [
     `gatsby-plugin-styled-components`,
