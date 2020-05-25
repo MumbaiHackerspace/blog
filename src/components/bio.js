@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Blogs of <strong>{author}</strong> 
+              Blogs of <strong>{author}</strong>
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow us on Twitter

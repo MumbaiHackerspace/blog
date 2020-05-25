@@ -28,17 +28,11 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/src/assets`,
         name: `assets`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/assets`,
-        name: `images`,
-      },
-    },
+    
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -85,7 +79,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/hm-icon.png`,
+        icon: `src/assets/hm-icon.png`,
       },
     },
     {
