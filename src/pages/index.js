@@ -5,12 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
-class IndexPage extends React.Component {
-  render() {
+function Index({location}) {
     const siteTitle = "Hackerspace Mumbai: OSS & Community"
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={location} title={siteTitle}>
         <SEO
           title="Home"
           keywords={[
@@ -92,7 +91,7 @@ class IndexPage extends React.Component {
         </Link>
       </Layout>
     )
-  }
 }
 
-export default IndexPage
+
+export default Index

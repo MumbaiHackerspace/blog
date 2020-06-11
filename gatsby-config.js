@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     // edit below
     title: `Hackerspace Mumbai Technical Blog`,
-    author: `Hackerspace Mumbai`,
+    author: {
+      name: `Hackerspace Mumbai`,
+      summary: `Aamchi Mumbai's largest OSS community`,
+    },
     description: `A blog chronicling while at the same time sharing our learning and experience in building the largest OSS community in Bombay`,
     siteUrl: `https://tech.hackmum.in/`,
     social: {
@@ -22,13 +25,12 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-remark-images`,
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -45,10 +47,9 @@ module.exports = {
     },
     
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -61,15 +62,10 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          {
-            resolve: `gatsby-remark-vscode`,
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+
         ],
       },
     },
@@ -83,8 +79,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Hackerspace Mumbai blog`,
+        short_name: `hackmum`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -93,21 +89,12 @@ module.exports = {
         icon: `src/assets/hm-icon.png`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: "gatsby-remark-embed-video",
-      options: {
-        width: 800,
-        ratio: 1.77,
-        height: 400,
-        related: false,
-        noIframeBorder: false 
-      }
-    }
   ],
 }

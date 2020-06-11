@@ -2,8 +2,8 @@
 path: Visage
 date: 2020-03-14T13:07:32.523Z
 title: Day 2 - Continuous Deployment
-description: "Using GitHub Actions to continuously deploy Blazor WASM app onto Azure Storage"
-featured: './frontend_deployment.png'
+description: Using GitHub Actions to continuously deploy Blazor WASM app onto Azure Storage
+featured: frontend_deployment.png
 ---
 <!--StartFragment-->
 

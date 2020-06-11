@@ -18,7 +18,10 @@ function SEO({ description, lang, meta, image:metaImage, keywords, title, pathna
           siteMetadata {
             title
             description
-            author
+            author {
+              name
+              summary
+            }
             keywords
             siteUrl
           }
