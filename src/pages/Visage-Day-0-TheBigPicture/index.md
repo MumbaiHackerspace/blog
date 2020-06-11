@@ -1,9 +1,9 @@
 ---
 path: Visage
 date: 2020-01-20T23:57:11.214Z
-title: In the beginning
-description: "Visage: Why, what and how?"
-image: assets/visage_architecture.png
+title: "In the beginning"
+description: "Why, what and how?"
+featured: 'visage_architecture.png'
 ---
 <!--StartFragment-->
 

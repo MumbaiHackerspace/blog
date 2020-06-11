@@ -1,8 +1,9 @@
 ---
 path: Visage
-date: 2020-04-10T18:58:56.229Z
-title: "Day 4: Upgrading Azure Function Project"
-description: Looking to upgrade the Azure Functions Project from v1 & v2 to v3
+date: "2020-04-10T18:58:56.229Z"
+title: "Day 4 - Upgrading Azure Function Project"
+description: "Looking to upgrade the Azure Functions Project from v1 & v2 to v3"
+featured: './successful-debug.png'
 ---
 ## Upgrading to Azure Function v3
 
