@@ -108,8 +108,8 @@ function SEO({ description, lang, meta, image:metaImage, keywords, title, pathna
                 content: metaImage.height,
               },
               {
-                property: "twitter:card",
-                content: "summary_large_image",
+                property: "twitter:image",
+                content: image,
               },
             ]
           :
