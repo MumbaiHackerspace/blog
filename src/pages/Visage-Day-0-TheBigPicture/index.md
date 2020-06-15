@@ -1,9 +1,10 @@
 ---
 path: Visage
 date: 2020-01-20T23:57:11.214Z
-title: "In the beginning"
+title: "Visage - In the beginning"
 description: "Why, what and how?"
 featured: './visage_architecture.png'
+tags: ["Visage", "Azure", "Docker", "SignalR", "Blazor", "AI", "IoT"]
 ---
 <!--StartFragment-->
 
