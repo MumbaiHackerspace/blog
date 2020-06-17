@@ -1,7 +1,7 @@
 ---
 path: Visage
 date: 2020-04-09T18:58:56.229Z
-title: "Day 3 - VS Code Rest Client Extension"
+title: "Visage: Day 3 - VS Code Rest Client Extension"
 description: "We incorporate an extension that's a big rage in integrating 3rd party APIs in VS Code"
 featured: './Rest-Client-VSCode-settings.png'
 tags: ["Rest Client VS Code Extension", "Azure"]
