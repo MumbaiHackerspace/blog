@@ -2,7 +2,7 @@
 date: 2020-05-21T23:57:11.214Z
 title: "MS Build 2020"
 description: "Technologies that caught our fancy at the digital MS Build 2020"
-featured: ''
+featured: './msbuild2020.jpg'
 tags: ["MS Build 2020", "Windows Terminal", "Azure Static Web App", "winget", "WSL 2"]
 ---
 <!--StartFragment-->
