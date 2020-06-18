@@ -25,10 +25,13 @@ Pop the champagne, [Windows Terminal](https://devblogs.microsoft.com/commandline
 
 This nicely segues into third goodie: Taking a leaf from Linux, now get your favorite Windows app via the command line.
 
-The magic word is: [winget]
+The magic word is: winget
 
-There is however a bit of blowback on this[check the comments section in the above link](https://devblogs.microsoft.com/commandline/windows-package-manager-preview)
 ![winget search](./winget.png)
+
+There is however a bit of blowback on this. [Check the comments section in the announcement link](https://devblogs.microsoft.com/commandline/windows-package-manager-preview)
+
+---
 
 Also other announcements that are worth a mention:
 
