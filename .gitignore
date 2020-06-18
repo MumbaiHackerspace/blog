@@ -70,3 +70,7 @@ yarn-error.log
 
 #timekeeping
 codealike.json
+
+#vscode
+.vscode
+.vscode/*

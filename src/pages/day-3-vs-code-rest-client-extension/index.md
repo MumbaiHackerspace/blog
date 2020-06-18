@@ -1,9 +1,10 @@
 ---
 path: Visage
 date: 2020-04-09T18:58:56.229Z
-title: "Day 3 - VS Code Rest Client Extension"
+title: "Visage: Day 3 - VS Code Rest Client Extension"
 description: "We incorporate an extension that's a big rage in integrating 3rd party APIs in VS Code"
 featured: './Rest-Client-VSCode-settings.png'
+tags: ["Rest Client VS Code Extension", "Azure"]
 ---
 ## Rest Client VS Code Extension
 After getting Xamarin to work [had to upgrade the emulator in the end], I decided to get a look in for the Rest Client extension that was garnering quite a following in the REST API world. And now I know why....even though there are quite a few stellar products like Insomnia and Postman in this fields, **REST Client extension brings 3rd Party API integration as part of your development workflow. And in doing so saves quite a bit of your computers memory and diskspace since its integrated with VS Code

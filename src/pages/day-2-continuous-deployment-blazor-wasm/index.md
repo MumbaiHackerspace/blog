@@ -1,16 +1,17 @@
 ---
 path: Visage
 date: 2020-03-14T13:07:32.523Z
-title: Day 2 - Continuous Deployment
-description: Using GitHub Actions to continuously deploy Blazor WASM app onto Azure Storage
-featured: frontend_deployment.png
+title: "Visage: Day 2 - Continuous Deployment"
+description: Using GitHub Actions to continuously deploy Blazor WASM app onto Azure Storage"
+featured: "./frontend_deployment.png"
+tags: ["Continuous Deployment", "Azure", "GitHub Actions", "ARM Visualizer"]
 ---
 <!--StartFragment-->
 
 Its always a good idea to get code promotion going from developer workstation onto production right at the start of the project
 
 1. Ensures your ***DevOps*** processes are in order
-2. Validates your infrastructure decision upfront when its much easier to make any changes
+1. Validates your infrastructure decision upfront when its much easier to make any changes
 
 So for today we will implement the below part of the *Visage* architecture [highlighted in green except for the Terraform part]
 

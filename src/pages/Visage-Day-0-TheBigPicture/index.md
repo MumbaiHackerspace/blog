@@ -1,9 +1,10 @@
 ---
 path: Visage
 date: 2020-01-20T23:57:11.214Z
-title: "In the beginning"
+title: "Visage - In the beginning"
 description: "Why, what and how?"
-featured: 'visage_architecture.png'
+featured: './visage_architecture.png'
+tags: ["Visage", "Azure", "Docker", "SignalR", "Blazor", "AI", "IoT"]
 ---
 <!--StartFragment-->
 
@@ -29,7 +30,7 @@ Since the person who will be doing the bulk of the work is a Docker Community Le
 The endeavour is to develop code ready to demo on technologies topical to our monthly #mumtechup [our monthly meetups usually have a theme join us for our [1st meetup for 2020](https://twitter.com/hackmum/status/1222455069964005376) ]
 
 
-![Visage Architecture](./visage_architecture.PNG)
+![Visage Architecture](./visage_architecture.png)
 
 
 <!--EndFragment-->

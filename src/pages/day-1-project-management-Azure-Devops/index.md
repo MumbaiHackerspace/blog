@@ -1,9 +1,10 @@
 ---
 path: Visage
 date: 2020-02-24T17:41:18.523Z
-title: "Day 1 - Project Management and Domain Modeling"
+title: "Visage: Day 1 - Project Management and Domain Modeling"
 description: "We set up the Azure DevOps project and set the project structure"
 featured: './azure_devops.png'
+tags: ["Visage", "Azure DevOps", ".net Core 3.1", ".net standard 2.0"]
 ---
 <!--StartFragment-->
 
