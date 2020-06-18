@@ -7,7 +7,7 @@ tags: ["MS Build 2020", "Windows Terminal", "Azure Static Web App", "winget", "W
 ---
 <!--StartFragment-->
 
-While there were a lot of announcements, we are going to concentrate on the top 3 that we think WE will be using regularly.
+While there were a lot of announcements, we are going to list the top 3 that we think WE will be using regularly.
 
 # 1. Azure Static Web App
 
@@ -32,8 +32,6 @@ The magic word is: winget
 There is however a bit of blowback on this. [Check the comments section in the announcement link](https://devblogs.microsoft.com/commandline/windows-package-manager-preview)
 
 ---
-
-Also other announcements that are worth a mention:
 
 1. WSL 2 being bundled with default Windows OS
 2. Project Tye. Most probably we will take a stab at this in mid-August depending on the traction it receives by then
