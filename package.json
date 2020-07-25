@@ -8,10 +8,6 @@
     "url": "https://github.com/HackerspaceMumbai/blog/issues"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "prettier": "2.0.5"
-  },
   "homepage": "https://github.com/HackerspaceMumbai/blog#readme",
   "keywords": [
     "Hackerspace Mumbai",
@@ -25,11 +21,18 @@
     "url": "git+https://github.com/HackerspaceMumbai/blog"
   },
   "scripts": {
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && npx @11ty/eleventy --config=eleventy.config.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "html-minifier": "^4.0.0",
+    "laravel-mix": "^5.0.1",
+    "laravel-mix-purgecss": "^4.2.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "tailwindcss": "^1.2.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
