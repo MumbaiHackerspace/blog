@@ -1,17 +1,18 @@
 ---
-path: Visage
 date: 2020-02-24T17:41:18.523Z
-title: "Visage: Day 1 - Project Management and Domain Modeling"
-description: "We set up the Azure DevOps project and set the project structure"
-featured: './azure_devops.png'
-tags: ["Visage", "Azure DevOps", ".net Core 3.1", ".net standard 2.0"]
+title: "Project Management and Domain Modeling"
+excerpt: "We set up the Azure DevOps project and set the project structure"
+featured_image: /images/blog/azure_devops_r1.jpg
+tags:
+  - blog
+  - Visage
 ---
+
 <!--StartFragment-->
 
 We created a Azure DevOps for Requirements & Resource tracking:
 
 <https://dev.azure.com/augcor/Visage>
-
 
 ![Visage Azure DevOps Project](./azure_devops.png)
 
@@ -33,7 +34,6 @@ But after wracking our brains over this for close to an hour, we found this nugg
 
 <https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0>
 
-
 ```dotnet
 <Project Sdk="Microsoft.NET.Sdk">
 <PropertyGroup>
@@ -43,8 +43,8 @@ But after wracking our brains over this for close to an hour, we found this nugg
 </PropertyGroup>
 </Project>
 ```
-Why in the Scott's name such discrepancies exist between Project Types. Wasn't .Net Core 3.1 supposed to begin on a clean slate and be the "standard"? This will only trip newbies, hitting the adoption of .Net
 
+Why in the Scott's name such discrepancies exist between Project Types. Wasn't .Net Core 3.1 supposed to begin on a clean slate and be the "standard"? This will only trip newbies, hitting the adoption of .Net
 
 Finally this worked, had to explicitly change it to .Net Core 3.1
 
@@ -59,4 +59,5 @@ Finally this worked, had to explicitly change it to .Net Core 3.1
 
 </Project>
 ```
+
 <!--EndFragment-->
