@@ -4,13 +4,14 @@
   "author": {
     "name": "Augustine Correa",
     "email": "augcor@gmail.com",
-    "avatar": "/images/blog/author.jpg"
+    "avatar": "/images/blog/author.jpg",
+    "handle": "@hackmum"
   },
   "images": {
     "logo": "/images/logo/hm_logo.jpg",
     "favicon": "/images/favicon.ico",
-    "twitter": "/images/meta/twitter.jpg",
-    "og": "/images/meta/og.jpg"
+    "twitter": "/images/logo/hm_logo.jpg",
+    "og": "/images/logo/hm_logo.jpg"
   },
   "social_links": {
     "github": "https://github.com/HackerspaceMumbai/",
