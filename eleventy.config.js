@@ -1,5 +1,6 @@
 const htmlmin = require("html-minifier")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
 module.exports = eleventyConfig => {
   // Add a readable date formatter filter to Nunjucks
@@ -48,6 +49,7 @@ module.exports = eleventyConfig => {
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(syntaxHighlight)
 
   return {
     templateFormats: ["md", "njk"],
