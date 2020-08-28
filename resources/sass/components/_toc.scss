@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.table-of-contents {
+  margin-bottom: 1em;
+}
+
+.table-of-contents ol {
+  counter-reset: list-item;
+}
+
+.table-of-contents li {
+  display: block;
+  counter-increment: list-item;
+  @apply text-sm;
+}
+
+.table-of-contents li:before {
+  content: counters(list-item, ".") " ";
+}

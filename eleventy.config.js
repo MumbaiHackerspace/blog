@@ -1,6 +1,9 @@
 const htmlmin = require("html-minifier")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const markdownIt = require("markdown-it")
+const markdownItAnchor = require("markdown-it-anchor")
+const markdownItToC = require("markdown-it-toc-done-right")
 
 module.exports = eleventyConfig => {
   // Add a readable date formatter filter to Nunjucks
@@ -51,9 +54,24 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
 
+
+  let markdownIt = require("markdown-it")
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  }
+
+  let markdownLib = markdownIt(options)
+    .use(markdownItAnchor, {
+      permalink: true,
+      permalinkBefore: true,
+      permalinkSymbol: "§",
+    }).use(markdownItToC)
+  eleventyConfig.setLibrary("md", markdownLib)
+
   return {
     templateFormats: ["md", "njk"],
-    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     passthroughFileCopy: true,
 
