@@ -78,3 +78,7 @@ codealike.json
 node_modules/
 dist/
 package-lock.json
+
+
+#Generated artifacts of SCSS
+css/main.css
