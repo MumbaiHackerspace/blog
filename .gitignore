@@ -74,11 +74,10 @@ codealike.json
 #vscode
 .vscode
 .vscode/*
-.DS_Store
-node_modules/
+
 dist/
 package-lock.json
 
 
 #Generated artifacts of SCSS
-css/main.css
+css/
