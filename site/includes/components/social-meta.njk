@@ -9,13 +9,13 @@
 <meta name="twitter:site" content="{{ site.author.handle }}">
 <meta name="twitter:creator" content="{{ site.author.handle }}">
 {% if site.images.twitter or featured_image %}
-    <meta name="twitter:image:src" content="{% if env == 'production' %}{{ site.url }}{% endif %}{% if featured_image  %}{{ featured_image }}{% else %}{{ site.images.twitter }}{% endif %}" />
+    <meta name="twitter:image:src" content="{% if project.env == 'production' %}{{ site.url }}{% endif %}{% if featured_image  %}{{ featured_image }}{% else %}{{ site.images.twitter }}{% endif %}" />
 {% endif %}
 {# Open Graph #}
 <meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
 <meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 {% if site.images.og or featured_image %}
-  <meta property="og:image" content="{% if env == 'production' %}{{ site.url }}{% endif %}{% if featured_image  %}{{ featured_image }}{% else %}{{ site.images.og }}{% endif %}" />
+  <meta property="og:image" content="{% if project.env == 'production' %}{{ site.url }}{% endif %}{% if featured_image  %}{{ featured_image }}{% else %}{{ site.images.og }}{% endif %}" />
 {% endif %}
 <meta name="og:url" content="{{ site.url }}{{ page.url }}">
 <meta name="og:site_name" content="{{ site.name }}">
