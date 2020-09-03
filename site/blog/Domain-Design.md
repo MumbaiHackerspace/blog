@@ -3,7 +3,7 @@ title: The Big Picture
 date: 2020-08-27
 featured_image: /images/blog/post-1.jpg
 image_caption: Story map
-excerpt: We walk through the adoption of Domain driven Design for Visage and provide a brief explanation on how we have used those design tool.
+excerpt: Implementing Dtrategic Domain driven Design for Visage with EventStorming, Domain Storytelling, Core Charts, Bounded Context Canvas.
 tags:
   - blog
   - Visage
