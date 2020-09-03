@@ -17,5 +17,10 @@
         "titleBar.inactiveBackground": "#42b88299",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.remoteColor": "#42b882"
+    "peacock.remoteColor": "#42b882",
+    "cSpell.words": [
+        "Eventbrite's",
+        "Karyakaram",
+        "choco"
+    ]
 }

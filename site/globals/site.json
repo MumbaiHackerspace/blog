@@ -1,0 +1,27 @@
+{
+  "name": "Hackerspace Mumbai",
+  "url": "https://tech.hackmum.in",
+  "author": {
+    "name": "Augustine Correa",
+    "email": "augcor@gmail.com",
+    "avatar": "/images/blog/author.jpg",
+    "handle": "@hackmum"
+  },
+  "images": {
+    "logo": "/images/logo/hm_logo.jpg",
+    "favicon": "/images/favicon.ico",
+    "twitter": "/images/logo/hm_logo.jpg",
+    "og": "/images/logo/hm_logo.jpg"
+  },
+  "social_links": {
+    "github": "https://github.com/HackerspaceMumbai/",
+    "twitter": "https://twitter.com/hackmum",
+    "facebook": "https://www.facebook.com/hackmum",
+    "linkedin": "https://www.linkedin.com/company/hackerspace-mumbai/",
+    "youtube": "https://www.youtube.com/c/hackerspacemumbai"
+  },
+
+  "contact": {
+    "email": "community@hackmum.in"
+  }
+}
